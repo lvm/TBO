@@ -1,4 +1,18 @@
-tbo (1.0.0) unstable; urgency=low
+tbo (1.0.0-2) unstable; urgency=low
+
+  * Empaqueto para Huayra
+  * Agrego debian_version al changelog
+  * Agrego source/format
+  * Agrego parche para el .desktop
+  * Actualizo debian/copyright
+  * Corrijo debian/dirs
+  * Agrego manpage
+  * Agrego build-dep en quilt
+  * Bump Standards Version
+
+ -- Mauro <mauro@krutt.org>  Tue, 22 Jul 2014 14:39:23 -0300
+
+tbo (1.0.0-1) unstable; urgency=low
 
   * New upstream release.
 

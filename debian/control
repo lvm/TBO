@@ -10,8 +10,9 @@ Build-Depends: cdbs,
                libgtk-3-dev,
                librsvg2-dev,
                gnome-common,
-               intltool
-Standards-Version: 3.9.2
+               intltool,
+               quilt
+Standards-Version: 3.9.5
 Homepage: http://github.com/danigm/TBO
 
 Package: tbo
