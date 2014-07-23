@@ -1,9 +1,0 @@
-Quito la linea de Encoding del tbo.desktop
---- a/data/tbo.desktop
-+++ b/data/tbo.desktop
-@@ -1,5 +1,4 @@
- [Desktop Entry]
--Encoding=UTF-8
- Exec=tbo
- Icon=tbo
- Type=Application
