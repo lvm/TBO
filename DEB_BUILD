@@ -1,0 +1,11 @@
+Este repositorio tiene 3 `branchs`:
+
+* Master, actualmente vacio.
+* Upstream, contiene el codigo fuente.
+* Debian, contiene el directorio `debian`.
+
+Para generar un `deb` es necesario cambiar al branch `upstream` y exportar al `HEAD` a un archivo `.tar.gz`:  
+    git archive --format=tar.gz --prefix=tbo-1.0.0/ -o ../tbo-1.0.0.tar.gz HEAD
+
+Una vez que tenemos generado al archivo `tbo-1.0.0.tar.gz`, lo copiamos a `tbo_1.0.0.orig.tar.gz` que luego nos sera util para generar al `deb`.  
+Cambiamos al branch `debian` y copiamos al directorio dentro del codigo fuente extraido, luego simplemente resta bajar las dependencias listadas en debian/control y ejecutar `dpkg-buildpackage`.
